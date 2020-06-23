@@ -36,7 +36,7 @@ from datetime import datetime, timedelta, timezone
 Hololive = { "UCXTpFs_3PqI41qX2d9tL2Rw/featured" : [ "紫咲シオン", "https://yt3.ggpht.com/a/AGF-l79Wv6njnWc-lQDwczBQVLgBIRMD8PJ72ZIPLg=s800-c-k-c0xffffffff-no-rj-mo" ] , 
 
             
-webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
+webhook_url_Hololive = 'https://discordapp.com/api/webhooks/725134425381142609/-k5mTLpddvPDx-DrtuNvPo-RNsseopGiNBY8_QvhVyVXVZDxy6ntoFZR7O8ueaVNdNSP' #ホロライブ配信開始
 webhook_url_Hololive_yotei = 'https://discordapp.com/api/webhooks/725131663125905416/n5odmYS0P7T5QvZz06FjLMaFMSsWLIaJeNPPUS0CsSkYY0OqJdE01mqDEES7xGbTBshK' #ホロライブ配信予定
 broadcast_data = {} #配信予定のデータを格納
 
