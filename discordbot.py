@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pong')
+    await ctx.send('peko')
 
 @bot.command()
 async def usada(ctx):
@@ -37,7 +37,7 @@ Hololive = { "UCXTpFs_3PqI41qX2d9tL2Rw/featured" : [ "紫咲シオン", "https:/
 
             
 webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
-webhook_url_Hololive_yotei = '配信開始予定用のwebhookリンク' #ホロライブ配信予定
+webhook_url_Hololive_yotei = 'https://discordapp.com/api/webhooks/725131663125905416/n5odmYS0P7T5QvZz06FjLMaFMSsWLIaJeNPPUS0CsSkYY0OqJdE01mqDEES7xGbTBshK' #ホロライブ配信予定
 broadcast_data = {} #配信予定のデータを格納
 
 YOUTUBE_API_KEY = [複数のAPI(str型)をリストで管理]
