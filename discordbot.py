@@ -22,7 +22,7 @@ async def usada(ctx):
     await ctx.send('ぺこ')
     
 @bot.command()
-async def おい兎田(ctx):
+async def 'おい兎田'(ctx):
     await ctx.send('草ぺこ')
     
     
